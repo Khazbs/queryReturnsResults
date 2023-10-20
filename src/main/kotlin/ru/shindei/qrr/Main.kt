@@ -22,7 +22,7 @@ object ExampleDao : Table("example_table") {
 
 fun main() {
 
-    val filePath = "./example.db3"
+    val filePath = "./data/example.db3"
     val database = Database
         .connect("jdbc:sqlite:$filePath")
 
