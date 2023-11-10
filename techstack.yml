@@ -1,0 +1,39 @@
+repo_name: Khazbs/queryReturnsResults
+report_id: 3b1f918b6361734ab234eb6993fc348c
+repo_type: Public
+timestamp: '2023-11-10T15:10:35+00:00'
+requested_by: Khazbs
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: gradlew.bat
+  last_updated_by: Arthur Khazbulatov
+  last_updated_on: 2023-10-20 22:07:32.000000000 Z
